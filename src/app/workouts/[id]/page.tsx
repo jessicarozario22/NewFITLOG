@@ -3,6 +3,8 @@ import SaveForLater from "@/components/WorkoutDetails/SaveForLater";
 import { IWorkout } from "@/types/workout.types";
 import Image from "next/image";
 import React from "react";
+import fs from "fs/promises";
+import path from "path";
 
 interface IWorkoutDetailsPage {
   params: Promise<{
@@ -12,26 +14,21 @@ interface IWorkoutDetailsPage {
 
 const listworkouts = async (): Promise<IWorkout[]> => {
   try {
-    const response = await fetch(
-      "http://localhost:3000/workoutsData.json",
-      {
-        cache: "no-store",
-      }
+    const filePath = path.join(
+      process.cwd(),
+      "public",
+      "workoutsData.json"
     );
 
-    if (!response.ok) {
-      throw new Error(
-        `Failed to fetch workouts data: ${response.status}`
-      );
-    }
+    const fileData = await fs.readFile(filePath, "utf-8");
 
-    const data: IWorkout[] = await response.json();
+    const data: IWorkout[] = JSON.parse(fileData);
 
     console.log("Workout data:", data);
 
     return data;
   } catch (error) {
-    console.error("Error fetching workouts data:", error);
+    console.error("Error reading workouts data:", error);
 
     return [];
   }
