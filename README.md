@@ -363,5 +363,3 @@ The project is deployed using **Vercel**.
 ## 📜 License
 
 This project was created for educational purposes as part of a assignment.
-#   N e w F I T L O G  
- 
