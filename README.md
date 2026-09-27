@@ -5,6 +5,10 @@ A modern, responsive workout library and personal fitness planning web applicati
 FitLog allows users to explore workouts, view detailed exercise information, save workouts for later, and build a personalized **Today's Plan** with live workout statistics.
 
 ---
+<p align="center">
+  <img src="src/assets/Fitlog-09-28-2026_12_00_AM.png" alt="Fit Log Preview" width="100%">
+</p>
+---
 
 ## 🌐 Live Demo
 
@@ -349,6 +353,16 @@ The project is deployed using **Vercel**.
 
 ---
 
+## 📸 UI Preview
+
+<p align="center">
+  <img width="1921" height="2195" alt="movie-explorer UI" src="src/assets/Fitlog-09-28-2026_12_01_AM (1).png"
+      alt="Movie Explorer UI Preview">
+</p>
+
+---
+<details open> <summary><strong>🏠 Home Page</strong></summary> <br> <p align="center"> <img src="src/assets/Fitlog-09-28-2026_12_00_AM.png" alt="Fit Log Home Page" width="90%" /> </p> </details> <br> <details> <summary><strong>🎬 Workouts Page</strong></summary> <br> <p align="center"> <img src="src/assets/Fitlog-09-28-2026_12_01_AM.png" alt="Fit Log Workout Page" width="90%" /> </p> </details> <br> <details> <summary><strong>🎞️ Workouts Details Modal</strong></summary> <br> <p align="center"> <img src="src/assets/Fitlog-09-28-2026_12_08_AM.png" alt="Workouts Details Modal" width="90%" /> </p> </details> 
+---
 ## 👨‍💻 Author
 
 ### Jessica Mary Rozario
