@@ -10,8 +10,7 @@ FitLog allows users to explore workouts, view detailed exercise information, sav
 
  **Live Website:**[Vercel Live Link](https://new-fitlog.vercel.app/) `YOUR_LIVE_LINK`
 
-
-**GitHub Repository:** `YOUR_GITHUB_REPOSITORY_LINK`
+**GitHub Repository:**[Fit Log](https://github.com/jessicarozario22/NewFITLOG) `YOUR_GITHUB_REPO_LINK`
 
 ---
 
