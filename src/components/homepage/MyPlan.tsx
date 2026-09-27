@@ -1,8 +1,7 @@
-import MyPlan from "@/components/homepage/MyPlan";
-import listedworkouts from "@/app/listedworkouts/page";
+import ListedWorkouts from "@/app/listedworkouts/page";
 
 const MyPlanPage = () => {
-  return <listedworkouts />;
+  return <ListedWorkouts />;
 };
 
 export default MyPlanPage;
