@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useEffect, useState } from "react";
@@ -29,16 +28,17 @@ const Workouts = () => {
   }, []);
 
   return (
-    <section className="container mx-auto py-[70px]">
-      <h2 className="mb-6 text-3xl font-bold">
+    <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 md:py-[70px]">
+      
+      <h2 className="mb-3 sm:mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl font-bold">
         THE LIBRARY
       </h2>
 
-      <p className="mb-6 text-1xl">
+      <p className="mb-6 sm:mb-8 text-sm sm:text-base md:text-lg">
         Twelve lifts covering every major muscle group.
       </p>
 
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-5 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
         {workoutsData.slice(0, 9).map((workout) => (
           <WorkoutCards
             key={workout.id}
@@ -46,6 +46,7 @@ const Workouts = () => {
           />
         ))}
       </div>
+
     </section>
   );
 };
